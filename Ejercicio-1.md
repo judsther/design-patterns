@@ -1,6 +1,8 @@
-```Ejercicio 1:
+Ejercicio 1:
 
+Patrón Factory: El patrón Factory se utiliza para delegar la creación de objetos a una clase específica. Podriamos decir que es una clase principal que 'fabrica' a los demás objetos.
 
+```mermaid
 classDiagram
     class Personaje {
         +atacar() : string
@@ -24,3 +26,5 @@ classDiagram
     Personaje <|-- Esqueleto
     Personaje <|-- Zombi
     FabricaDePersonajes ..> Personaje
+
+
